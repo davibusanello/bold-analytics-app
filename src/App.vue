@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <h1 id="title">Bold Commerce - Reviews Analytics</h1>
     <router-view/>
   </div>
 </template>
@@ -20,4 +20,8 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+h1#title {
+  color:#ff0000
+}
+
 </style>
